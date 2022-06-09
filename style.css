@@ -1,0 +1,87 @@
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-input{
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.slider{
+    width: 100%;
+    border-radius: 5px;
+    background-color: aliceblue; 
+    outline: none;
+    margin-top: 8px;
+}
+
+.button-cta{
+    height: 40px;
+    background-color: aliceblue;
+    color:rgba(91, 194, 241, 0.719);
+}
+
+.container-password{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.title{
+    text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+
+}
+.password{
+    height: 60px;
+    background-color:rgba(91, 194, 241, 0.719);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.tooltrip{
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 16px;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
+
+.container-password:hover .tooltrip{
+    visibility: visible;
+}
